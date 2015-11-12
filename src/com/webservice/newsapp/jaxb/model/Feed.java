@@ -7,8 +7,9 @@ import java.util.List;
  * Stores an RSS feed
  */
 public class Feed {
-
-  final String title;
+	
+final int id;
+ final String title;
   final String link;
   final String description;
   final String language;
@@ -18,7 +19,8 @@ public class Feed {
   final List<FeedMessage> entries = new ArrayList<FeedMessage>();
 
   public Feed(String title, String link, String description, String language,
-      String copyright, String pubDate) {
+      String copyright, String pubDate, int id) {
+	  this.id = id;
     this.title = title;
     this.link = link;
     this.description = description;
@@ -34,6 +36,10 @@ public class Feed {
   public String getTitle() {
     return title;
   }
+  
+  public int getId() {
+		return id;
+	}
 
   public String getLink() {
     return link;

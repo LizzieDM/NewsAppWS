@@ -1,0 +1,8 @@
+oct 21, 2015 10:13:08 PM com.webservice.newsapp.database.manager.DBconnection insert_feed
+INFORMACIÓN: [DESCRIPTION]La declaración de alerta por lluvias en Gran Canaria se activó en la tarde del martes en base a las previsiones de la Agencia Estatal de Meteorología (AEMET)
+oct 21, 2015 10:13:08 PM com.webservice.newsapp.database.manager.DBconnection insert_feed
+INFORMACIÓN: [TITTLE]El Gobierno de Canarias pone fin a la situación de alerta por lluvias en Gran Canaria
+oct 21, 2015 10:13:08 PM com.webservice.newsapp.database.manager.DBconnection insert_feed
+INFORMACIÓN: Date: 09:50:17 +0000
+oct 21, 2015 10:13:08 PM com.webservice.newsapp.database.manager.DBconnection insert_feed
+INFORMACIÓN: [Sentencia]INSERT INTO news_info (description,title,author,pub_date,id_newspaper) VALUES ('La declaración de alerta por lluvias en Gran Canaria se activó en la tarde del martes en base a las previsiones de la Agencia Estatal de Meteorología (AEMET)','El Gobierno de Canarias pone fin a la situación de alerta por lluvias en Gran Canaria','','Wed, 21 Oct 2015 09:50:17 +0000','2');

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feeds>
+	<item>
+		<title>Domínguez solicitó públicamente al presidente del Cabildo, Carlos Alonso (CC), que delegue en él todas las competencias necesarias para sacar adelante el ansiado muelle.</title>
+		<link>Manuel Domínguez se ofrece para liderar el proyecto del puerto</link>
+		<description>1481</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>En lo referente al Centro de Salud de Los Cristianos, el consejero de Sanidad afirma que "no tiene posibilidades de crecimiento en su ubicación actual".</title>
+		<link>Morera da por hecho que el Hospital del Sur abrirá en marzo con 96 camas</link>
+		<description>1482</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La primera teniente de alcalde del Ayuntamiento de Santa Cruz de Tenerife señala en una nota que han pasado más de cien días desde que se constituyó el Gobierno de Canarias, y la vicepresidenta y consejera de Asuntos Sociales "tiene ya que pasar de las sonrisas al trabajo".</title>
+		<link>Santa Cruz reclama al Gobierno 1.669 prestaciones de inserción</link>
+		<description>1483</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El cálculo lo hizo ayer la vicepresidenta del Gobierno canario, Patricia Hernández, en el Parlamento.</title>
+		<link>200.000 desempleados canarios no cobran nada</link>
+		<description>1484</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El Consejo General de Empleo aprobó hoy las bases reguladoras y la convocatoria. Se destinarán dos millones.</title>
+		<link>El Gobierno costeará la formación a empresas que contraten a parados</link>
+		<description>1485</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Canarias es la comunidad autónoma donde mayor porcentaje de ciudadanos se quejan de que tardan demasiado en recibir atención sanitaria o, incluso, de que les resulta imposible acceder a esos servicios debido a las listas de espera.
+
+
+Los canarios, entre los españoles menos optimistas sobre su salud</title>
+		<link>Los canarios, los que más se quejan de demoras excesivas en la sanidad</link>
+		<description>1486</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El Gobierno de Canarias reorganizará el modelo de atención a la discapacidad para, entre otros objetivos, establecer un catálogo de servicios común en las siete islas.
+
+
+Patricia Hernández dice que dará "prioridad" a la discapacidad en los presupuestos de 2016</title>
+		<link>El Gobierno canario reorganizará la atención a los discapacitados</link>
+		<description>1487</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La presidenta de la Zona Especial Canaria afirma que las Islas tienen un futuro esperanzador como plataforma tecnológica.</title>
+		<link>La reparación de plataformas de crudo, un negocio con recorrido</link>
+		<description>1488</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La Consejería prepara un nuevo documento que sustituya al que se diseñó para la etapa de 2013 a 2016 y que nunca se aprobó Los grupos parlamentarios exigen celeridad.</title>
+		<link>El Gobierno empleará a parados en la edificación de vivienda pública</link>
+		<description>1489</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Coalición Canaria en Tenerife aprobó en la noche de ayer, sin novedades sobre lo previsto, las propuestas de candidatos a las Cortes que elevará a la cúpula regional.</title>
+		<link>Alonso irá con Oramas al Congreso y Linares abrirá la lista al Senado</link>
+		<description>1490</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Canarias podrá instalar al menos 270 megavatios, lo que supone casi triplicar la potencia actual La cifra queda lejos del cupo de 450 abierto por el Ministerio de Industria.</title>
+		<link>El sector eólico ve "muy corto" el plazo para presentar proyectos</link>
+		<description>1491</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>En el marco del I Foro de Financiación para Pymes de Canarias: Aprende a Financiarte" se señala que, a pesar de los problemas, la banca dice que el grifo del crédito está abierto.</title>
+		<link>La mitad de las pymes canarias tiene problemas de financiación</link>
+		<description>1492</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El Pleno aprobó ayer las nuevas ordenanzas sobre el IBI y la utilización de los bienes de dominio público con especial bonificación a la llamada "economía social".</title>
+		<link>Exención fiscal de 500 a 1.300 euros  a los quioscos de Santa Cruz</link>
+		<description>1493</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Hace unos días, los amigos de lo ajeno desmontaron las estructuras para poder cortar los cables que fijaban las velas del patio de entrada al edificio abandonado.</title>
+		<link>Roban hasta los cables de acero  de la pérgola de la Mesa Mota</link>
+		<description>1494</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Un total de once colectivos contrarios al documento urbanístico y los partidos políticos, menos CC, debaten por la estrategia a seguir.</title>
+		<link>Los contrarios al PGO lagunero esperan la nueva propuesta</link>
+		<description>1495</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>De los 1.974 expedientes finalizados y entregados por las trabajadoras sociales del IMAS, solo 305 se están pagando El Ejecutivo canario no tendrá el dinero hasta noviembre.</title>
+		<link>El Gobierno solo ha abonado el 15% de las PCI aprobadas en Santa Cruz</link>
+		<description>1496</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Aunque el alcalde asegura, a través de una fuente oficial, que se trata de un "bulo", en Coalición Canaria (extraoficialmente) dan por seguro el acuerdo con el regidor de Arafo.</title>
+		<link>Lemes y su grupo de gobierno se pasarán a CC tras las generales</link>
+		<description>1497</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El gobierno local afirma que rompen y esparcen las bolsas de basura en La Quinta, abandonan enseres y dañan bienes municipales.</title>
+		<link>AISU y ADS-NC denuncian una "sospechosa" ola de vandalismo</link>
+		<description>1498</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Los padres del CEIP Cabo Blanco mantuvieron una reunión con el alcalde, al que indicaron que no hay suficientes cuidadores para una instalación que permite más usuarios.</title>
+		<link>Mena reclama a Educación plazas para 25 alumnos sin comedor</link>
+		<description>1499</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Al parecer, la retenía contra su voluntad en el piso que ambos compartían en Duggi.</title>
+		<link>Detenido por la presunta violación de una mujer</link>
+		<description>1500</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La menor se encuentra en buen estado de salud y ha sido reintegrada al centro del que se escapó.
+
+
+Desaparece una menor de 15 años en Las Palmas de Gran Canaria</title>
+		<link>Encontrada la adolescente fugada de un centro de menores</link>
+		<description>1501</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Encarnación Sánchez ha afirmado saber quién está detrás de la violación y muerte de la joven de Algete en 1997.
+
+
+El ADN del presunto asesino de Eva Blanco coincide con los restos hallados en su ropa (13-10-15)</title>
+		<link>La exmujer del presunto asesino de Eva Blanco le cree inocente</link>
+		<description>1502</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>De momento no existen indicios que lo relacionen con un posible acoso escolar.</title>
+		<link>Investigan el presunto suicidio de un niño de once años</link>
+		<description>1503</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Pedía a los cadetes que se hicieran y le enviaran fotos y vídeos  pornográficos.</title>
+		<link>Condenado un entrenador que pedía fotos sexuales</link>
+		<description>1504</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El furgón en el que viajaba Morate, escoltado por varios turismos.
+
+
+Morate llega a su domicilio de Cuenca entre gritos de "asesino"</title>
+		<link>El registro del domicilio de Morate duró cinco horas</link>
+		<description>1505</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Desde el centro niegan muertes "por capricho" y hablan de gestión clara.</title>
+		<link>Denuncian sacrificios de perros sanos en Valle Colino</link>
+		<description>1506</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>José Luis Gutiérrez Aranguren, convencido de que Rosario Porto no se encontrará con un veredicto de condena.
+
+
+Los forenses afirman que Asunta no pudo defenderse en el momento de su muerte (20-10-15)
+
+
+
+Porto relató episodios violentos de su exmarido</title>
+		<link>El abogado de Porto centrará su defensa en la falta de pruebas</link>
+		<description>1507</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El CD Tenerife presentó un recurso ante la amonestación del domingo.</title>
+		<link>Competición retira la amarilla a Cámara</link>
+		<description>1508</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Nino vive su enésima juventud esta temporada.</title>
+		<link>"Fue un halago que, con 35 años, el Tenerife me quisiera"</link>
+		<description>1509</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El nuevo entrenador amarillo asume que su equipo no podrá dominar siempre, pero asegura que "se puede jugar bien en cualquier categoría".</title>
+		<link>Quique Setién defiende que su estilo es "innegociable"</link>
+		<description>1510</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Quique Setién ha dirigido esta mañana su primer entrenamiento en Maspalomas.</title>
+		<link>Valerón: "Esperamos asimilar pronto las ideas de Setién"</link>
+		<description>1511</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Apuesta por conseguir el objetivo de la permanencia al final de la presente temporada.</title>
+		<link>Alcaraz: "No es fácil cumplir 250 partidos en Primera"</link>
+		<description>1512</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Santa Úrsula rindió homenaje a sus leyendas y el Tijarafe Guanche ganó el I Torneo El Volquete</title>
+		<link>Una noche de "viejas glorias"</link>
+		<description>1513</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Confirmadas este miércoles las clasificaciones de Angelique Kerber y  Flavia Pennetta para las Finales.</title>
+		<link>Dos victorias separan a Carla del Masters de Singapur</link>
+		<description>1514</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La española, este jueves, se convertirá oficialmente en la número uno mundial.</title>
+		<link>Marín debuta en París con victoria</link>
+		<description>1515</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El Festival Internacional de Danza Contemporánea de Canarias llegará, por primera vez, a todas las islas, tras veinte años de existencia, con la participación de una quincena de espectáculos.</title>
+		<link>Masdanza hace región</link>
+		<description>1516</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La Fundación Cristino de Vera-Espacio Cultural CajaCanarias inaugura una exposición que reúne algunas claves pictóricas del artista grancanario. Varias piezas se exponen por primera vez.</title>
+		<link>Néstor de la Torre toma La Laguna</link>
+		<description>1517</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Asegura que el mar es la música callada del libro que presentó en la librería Agapea de la capital tinerfeña.</title>
+		<link>"Todo lo que se siente se dice mejor por escrito"</link>
+		<description>1518</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>La previsión meteorológica en la provincia de Santa Cruz de Tenerife para el 22 de octubre
+La previsión meteorológica en la provincia de Las Palmas para mañana, jueves 22 de octubre de 2015</title>
+		<link>Alerta por lluvias en las Islas Occidentales</link>
+		<description>1519</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El ministro de Economía dice que este año 2015 vamos a tener la caída más intensa del paro que "nunca se haya dado en la historia".</title>
+		<link>De Guindos avanza que la EPA de mañana será positiva</link>
+		<description>1520</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Se están efectuando una veintena de registros, entre ellos en la sede de CDC en la calle Còrsega de Barcelona.
+
+
+Andreu Viloca, un "fontanero" de CDC encargado de sus finanzas
+
+
+
+La investigación del 3% se centra en 6 empresas del sector de la construcción</title>
+		<link>Detenido el tesorero de CDC por presunto cobro de comisiones</link>
+		<description>1521</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Critica la "sobreactuación" de la Fiscalía, que ha vinculado al proceso soberanista catalán que él impulsa.
+
+
+Fernández Díaz rechaza una intencionalidad política en la operación en la sede de CDC</title>
+		<link>Mas se siente "objeto de caza mayor"</link>
+		<description>1522</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Sánchez desea un "presidente honrado" y Rajoy replica que "lo mejor" para España es que PSOE siga "muchos años" en la oposición.
+
+
+Rajoy a Sánchez: "Lo mejor para España es que siga muchos años en la oposición"</title>
+		<link>Rajoy insiste: el Presupuesto es "absolutamente riguroso"</link>
+		<description>1523</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Bashar Al Asad hizo anoche una visita sorpresa a Moscú, de la que solo se informó hoy después de su regreso a Siria.
+
+
+Rusia dice que la prioridad es derrotar al terrorismo no el arreglo político
+
+
+
+Merkel recuerda que el enemigo es el Estado Islámico, no el pueblo sirio</title>
+		<link>Putin informó al rey de Arabia Saudí sobre su reunión con Asad</link>
+		<description>1524</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Entre los modelos afectados se encuentran los modelos Corolla, el Yaris, el Camry, el Rav 4, el Highlander y el Auris.</title>
+		<link>Toyota revisará 6,5 millones de coches por un fallo eléctrico</link>
+		<description>1525</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El número de fumadores diarios ha descendido en los últimos cinco años, pasando del 26,2 por ciento en 2009 al 23 por ciento en 2014.</title>
+		<link>Cae el número de fumadores diarios en España hasta el 23%</link>
+		<description>1526</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Liga, Champions, UEFA... Si eres un auténtico forofo del deporte rey y estas competiciones te saben a poco, descubre dónde disfrutar de las mejores ligas internacionales.</title>
+		<link>El fútbol como compañero de viaje</link>
+		<description>1527</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Roberto Santana formó parte del equipo español que se impuso al combinado sueco y belga en la cita organizada por "La Revue du Vin de France". Los ganadores sumaron en el concurso 140 puntos.</title>
+		<link>Un tinerfeño, campeón mundial de catas de vinos a ciegas</link>
+		<description>1528</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Cuentan los más viejos del lugar que siendo niños contemplaban largas colas de "señores", de toda edad y condición, a la espera de que el limpiabotas les lustrara los zapatos.</title>
+		<link>Limpiabotas, un oficio para el recuerdo</link>
+		<description>1529</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>El ministro Soria ha anunciado, a bombo y platillo, la intención de su departamento de gastarse 800 millones de euros en Canarias, en los próximos cinco años, en obras en infraestructuras para mejorar la red de transporte eléctrico en Canarias.</title>
+		<link>Un diluvio de obras y dinero</link>
+		<description>1530</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title>Participe en nuestras encuestas.<a href="http://eldia.es/participacion">Votar</a>
+		</title>
+		<link>Encuesta: ¿Ha dejado de ir al médico por falta de dinero?</link>
+		<description>1531</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+	<item>
+		<title/>
+		<link>Portada de la edición de EL DÍA del Miércoles, 21 de octubre de 2015</link>
+		<description>1532</description>
+		<content:encoded>null</content:encoded>
+		<pubDate/>
+	</item>
+</feeds>

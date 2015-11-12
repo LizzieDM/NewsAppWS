@@ -16,7 +16,10 @@ import java.io.Reader;
 import java.io.Writer;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
@@ -26,9 +29,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import com.webservice.newsapp.database.manager.DBconnection;
+import com.webservice.newsapp.database.manager.ReadService;
 import com.webservice.newsapp.jaxb.model.Feed;
-import com.webservice.newsapp.jaxb.model.NewsPaper;
-import com.webservice.newsapp.jaxb.model.RSSFeedParser;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -45,6 +47,7 @@ public class XMLResource {
 			.getName());
 	static private FileHandler fileTxt;
 	static private SimpleFormatter formatterTxt;
+	ArrayList<String> conjuntoVacias = null;
 
 	@GET
 	@Produces({ MediaType.TEXT_XML })
@@ -56,7 +59,7 @@ public class XMLResource {
 		formatterTxt = new SimpleFormatter();
 		fileTxt.setFormatter(formatterTxt);
 		log.addHandler(fileTxt);
-		
+
 		String archivo = null;
 		String archivo_prueba = null;
 		File file = new File(
@@ -65,93 +68,97 @@ public class XMLResource {
 			file.createNewFile();
 		}
 
+		ReadService read = new ReadService();
+		read.readBdInsert();
+		System.out.println("Leidos desde BBDD");
+
 		DBconnection conexionDB = new DBconnection();
-		conexionDB.test_connection();
-		conexionDB.getNewsPapers();
-		List<NewsPaper> newspaperUrls = conexionDB.getNewsPapers();
-
-		FileWriter fw = new FileWriter(file.getAbsoluteFile());
-		BufferedWriter bw = new BufferedWriter(fw);
-
-		archivo = "<?xml version=\"1.0\"?><feeds>";
-		for (int i = 0; i < newspaperUrls.size(); i++) {
-
-			RSSFeedParser parser = new RSSFeedParser(newspaperUrls.get(i)
-					.getUrl());
-			Feed feed = parser.readFeed();
-
-			for (int i1 = 0; i1 < feed.getMessages().size(); i1++) {
-
-				if (feed.getMessages().get(i1).getPubDate() != null) {
-					System.out.println("La fecha no es nula");
-					conexionDB.insert_feed(feed.getMessages().get(i1)
-							.getDescription(), feed.getMessages().get(i1)
-							.getTitle(),
-							feed.getMessages().get(i1).getAuthor(), feed
-									.getMessages().get(i1).getPubDate(),
-							newspaperUrls.get(i).getId());
-					archivo += "<item><title>"
-							+ feed.getMessages().get(i1).getTitle()
-							+ "</title>";
-					archivo += "<link>" + feed.getMessages().get(i1).getLink()
-							+ "</link>";
-					archivo += "<description>"
-							+ feed.getMessages().get(i1).getDescription()
-							+ "</description>";
-					archivo += "<content:encoded>"
-							+ feed.getMessages().get(i1).getGuid()
-							+ "</content:encoded>";
-					archivo += "<pubDate>"
-							+ feed.getMessages().get(i1).getPubDate()
-							+ "</pubDate></item>";
-
-				}
-
-			}
-
+		try {
+			conexionDB.test_connection();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
 		}
+
+		archivo = "<?xml version=\"1.0\" encoding=\"utf-8\"?><feeds>";
+/*
+		// Diario de avisos
+		List<Feed> listNews2 = conexionDB.getNews(2);
+		for (int j = 0; j < listNews2.size(); j++) {
+			archivo += "<item><title>" + listNews2.get(j).getTitle()
+					+ "</title>";
+			archivo += "<link>" + listNews2.get(j).getLink() + "</link>";
+			archivo += "<description>" + listNews2.get(j).getDescription()
+					+ "</description>";
+			archivo += "<encoded>" + listNews2.get(j).getLanguage()
+					+ "</encoded>";
+			archivo += "<pubDate>" + listNews2.get(j).getPubDate()
+					+ "</pubDate></item>";
+		}*/
 		archivo += "</feeds>";
+
 		// Escribimos en el archivo
-		bw.write(archivo_prueba);
-		bw.close();
 
 		System.out.println("Done");
 
-		/*
-		 * Class stemClass = null; try { stemClass = Class
-		 * .forName("org.tartarus.snowball.stemmer.ext.spanishStemmer"); } catch
-		 * (ClassNotFoundException e1) { // TODO Auto-generated catch block
-		 * e1.printStackTrace(); } SnowballStemmer stemmer = (SnowballStemmer)
-		 * stemClass.newInstance();
-		 * 
-		 * Reader reader; String a =
-		 * "C:\\Users\\ASUS\\Webservice\\com.webservice.newsapp\\documents\\articles.rss"
-		 * ; reader = new BufferedReader(new FileReader(a));
-		 * 
-		 * StringBuffer input = new StringBuffer();
-		 * 
-		 * OutputStream outstream = null;
-		 * 
-		 * try { outstream = new FileOutputStream(
-		 * "C:\\Users\\ASUS\\Webservice\\com.webservice.newsapp\\documents\\salida.txt"
-		 * ); } catch (FileNotFoundException e) { // TODO Auto-generated catch
-		 * block e.printStackTrace(); }
-		 * 
-		 * Writer output = new OutputStreamWriter(outstream); output = new
-		 * BufferedWriter(output);
-		 * 
-		 * int repeat = 1; // if (args.length > 4) { // repeat =
-		 * Integer.parseInt(args[4]); // }
-		 * 
-		 * Object[] emptyArgs = new Object[0]; int character; while ((character
-		 * = reader.read()) != -1) { char ch = (char) character; if
-		 * (Character.isWhitespace((char) ch)) { if (input.length() > 0) {
-		 * stemmer.setCurrent(input.toString()); for (int i = repeat; i != 0;
-		 * i--) { stemmer.stem(); } output.write(stemmer.getCurrent());
-		 * output.write('\n'); input.delete(0, input.length()); } } else {
-		 * input.append(Character.toLowerCase(ch)); } } output.flush(); Logger
-		 * log = null; log.info("Output:" + output);
-		 */
+		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.write(archivo);
+		bw.close();
+
+		System.out.println("Done File");
+		conjuntoVacias = new ArrayList<String>();
+		conjuntoVacias = leerConjuntoVacias();
+		System.out.println("Leido el fichero de vacías");
+		// ElDia
+		List<Feed> listNews = conexionDB.getNews(1);
+		for (int i = 0; i < listNews.size(); i++) {
+			 String texto1 = limpiarTextoVacias(listNews.get(i).getDescription());
+			 System.out.println("Texto sin vacias" + texto1);		
+		}
+		
+		
 		return archivo;
 	}
+
+	
+	
+	
+	private String limpiarTextoVacias(String description) {
+		 System.out.println("Limpieza de " + description);
+		for (int i = 0; i < conjuntoVacias.size(); i++){
+			description = description.replaceAll("\\b" + conjuntoVacias.get(i) + "\\b", "");
+		}
+		
+		return description;
+				
+	}
+
+	private ArrayList<String> leerConjuntoVacias() {
+
+		BufferedReader br = null;
+		String sCurrentLine;
+		ArrayList<String> vacias = new ArrayList<String>();
+
+		try {
+			br = new BufferedReader(
+					new FileReader(
+							"C:\\Users\\ASUS\\Webservice\\com.webservice.newsapp\\resources\\vacias.txt"));
+		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+
+		try {
+			while ((sCurrentLine = br.readLine()) != null) {
+				System.out.println(sCurrentLine);
+				vacias.add(sCurrentLine);
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return vacias;
+	}
+
 }

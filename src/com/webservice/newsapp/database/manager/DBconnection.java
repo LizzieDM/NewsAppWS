@@ -14,6 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+import com.webservice.newsapp.jaxb.model.Feed;
 import com.webservice.newsapp.jaxb.model.NewsPaper;
 import com.webservice.newsapp.jaxb.service.XMLResource;
 
@@ -95,13 +96,8 @@ public class DBconnection {
 			result = query.executeQuery();
 			while (result.next()) {
 				NewsPaper newsPaper = new NewsPaper();
-				System.out.print(result.getInt(1));
 				newsPaper.setId(result.getInt(1));
-				System.out.print(": ");
-				System.out.println(result.getString(2));
 				newsPaper.setUrl(result.getString(2));
-				System.out.print(": ");
-				System.out.println(result.getString(3));
 				newsPaper.setName(result.getString(3));
 				newsPapers.add(newsPaper);
 			}
@@ -144,15 +140,16 @@ public class DBconnection {
 	         System.out.println("Opened database successfully");
 
 	         stmt = conn.createStatement();
-	         log.info("[DESCRIPTION]" + description);
-	         log.info("[TITTLE]" + tittle);
+	         //log.info("[DESCRIPTION]" + description);
+	         //log.info("[TITTLE]" + tittle);
+	         //log.info("Date:" + pub_date.substring(16, pub_date.length()));
 	         String descrip_parse = parseQuotes(description);
 	         String tittle_parse = parseQuotes(tittle);
 	         String sql = "INSERT INTO news_info (description,title,author,pub_date,id_newspaper) "
 	               + "VALUES ('" + description + "','" + tittle + "','" + author + "','" + pub_date + "','" + id_newspaper + "');";
-	         log.info("[Sentencia]" + sql);
+	         
 	         stmt.executeUpdate(sql);
-
+	         //log.info("[Sentencia]" + sql);
 	         stmt.close();
 	         conn.commit();
 	         conn.close();
@@ -161,6 +158,55 @@ public class DBconnection {
 	         System.exit(0);
 	      }
 	    
+	}
+	
+	public  List<Feed> getNews(int periodico) {
+		Connection conn = null;
+		PreparedStatement query = null;
+		ResultSet result = null;
+		List<Feed> listNews = new ArrayList<Feed>();
+		try {
+			conn = getConnection();
+
+			String sql = ("Select * from news_info where id_newspaper="+ periodico +";");
+			query = conn.prepareStatement(sql);
+			result = query.executeQuery();
+			while (result.next()) {
+				Feed new_notice = new Feed(result.getString(3),result.getString(4),result.getString(2), null, null, result.getString(5), result.getInt(1));
+				System.out.print(result.getInt(1));
+				System.out.print(": ");
+				System.out.println(result.getString(2));
+				System.out.print(": ");
+				System.out.println(result.getString(3));
+				System.out.print(": ");
+				System.out.println(result.getString(4));
+				System.out.print(": ");
+				System.out.println(result.getString(5));
+				System.out.print(": ");
+				System.out.println(result.getString(6));
+				listNews.add(new_notice);
+			}
+		} catch (Exception e) {
+			System.err.println(e.getClass().getName() + ": " + e.getMessage());
+			System.exit(0);
+		} finally {
+
+			try {
+
+				if (query != null) {
+					query.close();
+				}
+				if (conn != null) {
+					conn.close();
+				}
+
+			} catch (SQLException ex) {
+				Logger lgr = Logger.getLogger(DBconnection.class.getName());
+				lgr.log(Level.WARNING, ex.getMessage(), ex);
+			}
+		}
+		System.out.println("News read successfully");
+		return listNews;
 	}
 	
 	private String parseQuotes(String texto){
