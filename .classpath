@@ -15,5 +15,9 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/postgresql-9.3-1103.jdbc3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/slib-dist-0.9-all-jar.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Documents/Proyecto/freeling-3.1-win64/java/freeling.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Documents/Proyecto/freeling-3.1-win64/java"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
